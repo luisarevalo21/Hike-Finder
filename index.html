@@ -1,0 +1,149 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hike Finder</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <img src="./assets/mountain.svg" alt="mountain" />
+        <h1>HikeFinder</h1>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <img src="./assets/burger.svg" alt="burger-icon" class="burger" />
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Expore</a></li>
+          <li class="signup"><a href="">Sign UP</a></li>
+          <li class="login"><a href="">Log in</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="index-section">
+      <div class="section-container">
+        <div class="section-image-container"><!--empty on purpose --></div>
+        <div class="left-section">
+          <h3 class="section-title">Find your next <span class="yellow">adventure</span></h3>
+          <p>
+            Your next hiking adventure awaits. Get on the trail with detailed maps and updates shared by hikers like
+            you.
+          </p>
+          <div class="input-container">
+            <img src="./assets/search.svg" alt="search" class="search-icon" />
+            <input type="text" class="hero-input" placeholder="Search by city" />
+            <button class="btn search">Search</button>
+          </div>
+        </div>
+
+        <!-- <div class="right-section">
+          <div class="input-container">
+            <img src="./assets/search.svg" alt="search" class="search-icon" />
+            <input type="text" class="right-section-input" />
+            <button class="btn search">Search</button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <main class="main">
+      <h3 class="main-title">Hikes near Bergen</h3>
+
+      <div class="main-wrapper">
+        <div class="main-section-item">
+          <img src="./assets/river-mountains.svg" alt="" class="explorer-img" />
+
+          <div class="main-content-description-container">
+            <h3 class="main-content-description-title">Fløyen</h3>
+            <h4 class="main-content-subtitle">Length: 10.2 km - Est. 5 h</h4>
+            <p class="main-content-description">
+              Fløibanen is one of Norway's most visited attractions. At the top of Fløyen you will find a large and
+              varied hiking area, spectacular views of the city.
+            </p>
+
+            <button class="learn-more">Learn More</button>
+          </div>
+        </div>
+        <div class="main-section-item">
+          <img src="./assets/river-overview.svg" alt="" class="explorer-img" />
+
+          <div class="main-content-description-container">
+            <h3 class="main-content-description-title">Ulriken</h3>
+            <h4 class="main-content-subtitle">Length: 3.5 km - Est. 2 h 30 m</h4>
+            <p class="main-content-description">
+              Ulriken is the highest of the Seven Mountains that surround the city of Bergen, Norway. It has a height of
+              643 meters (2,110 ft) above sea level.
+            </p>
+
+            <button class="learn-more">Learn More</button>
+          </div>
+        </div>
+
+        <div class="main-section-item">
+          <img src="./assets/mountains.svg" alt="" class="explorer-img" />
+          <div class="main-content-description-container">
+            <h3 class="main-content-description-title">Landåsfjellet</h3>
+            <h4 class="main-content-subtitle">Length: 4.3 km - Est. 1 h 25 m</h4>
+            <p class="main-content-description">
+              Landåsfjellet is a lower plateau south of Ulriken/Haugavarden which offers numerous trails, and is almost
+              a separate hiking region by its own.
+            </p>
+
+            <button class="learn-more">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <div class="info-wrapper">
+        <div class="info-container">
+          <img src="./assets/bell.svg" alt="" />
+          <p class="info-title">Sign up for Notifications</p>
+          <p class="info-subtitle">
+            <span class="info-green">Sign up</span> to get conditions alerts, information on pop-up events and
+            interesting stories.
+          </p>
+        </div>
+        <div class="info-container">
+          <img src="./assets/location.svg" alt="" />
+          <p class="info-title">Get the HikeFinder App</p>
+          <p class="info-subtitle">
+            <span class="info-green">Download the app</span> to get the most out of every minute outdoors with offline
+            maps and more!
+          </p>
+        </div>
+        <div class="info-container">
+          <img src="./assets/share.svg" alt="" />
+          <p class="info-title">Share Trails</p>
+          <p class="info-subtitle">
+            <span class="info-green">Share your hiking adventures</span> with the community and keep a record of your
+            travels.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Expore</a></li>
+          <li><a href="">Sign UP</a></li>
+          <li><a href="">Log in</a></li>
+        </ul>
+      </nav>
+      <div>
+        <div class="footer-details">
+          <img src="./assets/footer-mountain.svg" alt="logo" />
+          <h2 class="footer-title">HikeFinder</h2>
+        </div>
+        <div class="footer-copyright">Copyright 2022. HikeFinder</div>
+      </div>
+    </footer>
+  </body>
+</html>
